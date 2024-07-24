@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Invoice</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css1.css">
+</head>
+<body>
+  <div class="container my-5">
+    <div class="container-fluid">
+      <div class="row invoice-header">
+        <div class="col-md-6 text-left">
+            <address>
+              <strong>Café: Sweet Chocolate Cafe</strong><br>
+              Address: River Street, Damascus<br>
+              Phone: +963 123 456 789<br>
+              Email: <a href="mailto:info@cafe.com">info@cafe.com</a>
+            </address>
+          </div>
+        <div class="col-md-6">
+          <h1 class="invoice-title">Cafe Invoice</h1>
+        </div>
+       
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-12 text-left">
+          <div class="d-flex  justify-content-between">
+            <div>
+                <strong>Invoice Number:</strong> 12345
+              </div>
+            <div>
+              <strong>Invoice Date:</strong> July 20, 2024
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row fs-6">
+        <div class=" col-sm-12 ">
+          <table class="table table-bordered table-hover table-invoice ">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Espresso</td>
+                <td>2</td>
+                <td>$5.00</td>
+                <td>$10.00</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Latte</td>
+                <td>1</td>
+                <td>$7.00</td>
+                <td>$7.00</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Chocolate Cake</td>
+                <td>1</td>
+                <td>$4.00</td>
+                <td>$4.00</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Capuccino</td>
+                <td>3</td>
+                <td>$6.00</td>
+                <td>$18.00</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="total-row">
+                <td colspan="4" class="text-right text-custom">Total:</td>
+                <td class="text-custom">$39.00</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 text-center footer-message">
+          <p>Thank you for your visit. We look forward to seeing you again! <a href="https://www.cafe.com">Visit our website</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
